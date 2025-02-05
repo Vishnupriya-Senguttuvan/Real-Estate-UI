@@ -1,0 +1,1148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.side-bar{
+  display: none;
+}
+.top-nav{
+  background-color: #2537ae;
+  position: fixed;
+  padding: 32px 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%; 
+}
+.banner {
+  background-image: url("/assets/images/building.png");
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 190px;
+}
+.zero-bannercontent{
+  padding-top: 170px; 
+}
+/* Indexpage */
+.nav_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.nav_link li a {
+  display: block;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+.work-with-usbtn {
+  background-color: #ffac12;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 0 20px 0 0;
+  font-weight: bold;
+  border:none;
+}
+.work-with-usbtn:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.work-with-usbtn img {
+  width: 20px;
+  height: 10px;
+  object-fit: cover;
+  margin-left: 9px;
+}
+.nav-content {
+  gap: 60px;
+}
+.navlink-button {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.nav-menu {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.zero-bannercontent h1 {
+  font-size: 80px;
+  /* margin-top: 200px; */
+  max-width: 39px;
+  color: white;
+  max-width: 470px;
+}
+.zero-bannercontent p {
+  font-size: 20px;
+  margin-top: 22px;
+  color: white;
+  max-width: 408px;
+  /* margin-bottom: 178px; */
+}
+.banner-content{
+  padding-bottom: 176px;
+}
+.all_listings {
+  margin: 0 auto;
+  padding: 37px 0px 37px 40px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+.all_listings img {
+  width: 24px;
+  height: 12px;
+  object-fit: cover;
+  margin-left: 15px;
+}
+/* goodhandspage */
+/* .good_handspage {
+  display: flex;
+  align-items: center;
+} */
+.good_hands {
+  display: block;
+  margin-top: 263px;
+  margin-bottom: 56px;
+}
+.learn_more {
+  position: relative;
+  /* height: 657px; */
+  width: 704px;
+}
+.learn_more img {
+  position: absolute;
+  width: 704px;
+  height: 657px;
+  top: 150px;
+  left: -136px;
+  object-fit: cover;
+  border-radius: 0 57px 0 0;
+  box-shadow: 0px 62px 54px 0px #0000004d;
+}
+.good_hands h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.good_hands p {
+  max-width: 379px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #000000;
+  opacity: 60%;
+}
+.good_hands button {
+  margin: 0 auto;
+  padding: 25px 40px 23px 40px;
+  background-color: black;
+  color: white;
+  border-radius: 0 20px 0 0;
+  font-size: 17px;
+  border:none;
+}
+.good_hands button img {
+  width: 20px;
+  height: 10px;
+  object-fit: cover;
+  margin-left: 19px;
+}
+
+/* Next place to live */
+.drop_down {
+  background-color: white;
+  border-radius: 25px;
+  margin-bottom: 76px;
+  overflow: hidden;
+}
+.placetolive {
+  background-color: #f5f5f5;
+  padding: 0 190px;
+  padding-bottom: 280px;
+}
+.place img {
+  margin-top: 216px;
+}
+
+.looking {
+  padding: 45px;
+  border: none;
+  background-color: white;
+  border-right: 1px solid #e4e4e4;
+  display: flex;
+}
+.looking p {
+  margin-bottom: 0;
+}
+
+.location {
+  padding: 45px;
+  border: none;
+  background-color: white;
+  border-right: 1px solid #e4e4e4;
+  display: flex;
+}
+.location p {
+  margin-bottom: 0;
+}
+
+.property {
+  padding: 41px;
+  border: none;
+  background-color: white;
+  border-right: 1px solid #e4e4e4;
+  display: flex;
+}
+.property p {
+  margin-bottom: 0;
+}
+
+.price {
+  padding: 45px;
+  border: none;
+  background-color: white;
+  display: flex;
+}
+.price p {
+  margin-bottom: 0;
+}
+
+.drop_down img {
+  padding: 9px 17px;
+}
+.place h1 {
+  margin-bottom: 60px;
+  margin-top: 17px;
+}
+
+.house_card {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.bed_icon {
+  padding: 10px;
+}
+.showerlogo {
+  padding: 10px;
+}
+.sizelogo {
+  padding: 10px;
+}
+.card-img-top {
+  width: 100%;
+  height: 266px;
+  object-fit: cover;
+  border-radius: 25px 25px 0px 0px !important;
+}
+.cards-footer {
+  background-color: white !important;
+  border-radius: 25px !important;
+}
+.card-logo {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  display: flex;
+  justify-content: space-around;
+}
+.card-logo li {
+  padding: 18px 40px;
+}
+.card-logo li:last-child {
+  border-right: none;
+}
+.card-content {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 20px;
+  margin-bottom: 0;
+}
+.card-body {
+  padding: 0 !important;
+}
+.malto-cards {
+  box-shadow: 0px 32px 34px 0px #00000022;
+  border: none !important;
+  margin-bottom: 30px;
+  border-radius: 25px !important;
+}
+
+.card-bottom {
+  /* display:flex;
+    justify-content: space-around; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.card-title {
+  padding: 30px;
+  border-bottom: 2px solid #e4e4e4;
+}
+.card_content1 {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 32px 34px 0px #00000022;
+}
+.card_content1 img {
+  object-fit: cover;
+}
+.card_content2 {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 32px 34px 0px #00000022;
+}
+.card_content2 img {
+  object-fit: cover;
+}
+.card_content3 {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 32px 34px 0px #00000022;
+}
+.card_content3 img {
+  object-fit: cover;
+}
+.card_content4 {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 32px 34px 0px #00000022;
+}
+.card_content4 img {
+  object-fit: cover;
+}
+.card_content5 {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 32px 34px 0px #00000022;
+}
+.card_content5 img {
+  object-fit: cover;
+}
+.card_content6 {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  box-shadow: 0px 32px 34px 0px #00000022;
+}
+.card_content6 img {
+  object-fit: cover;
+}
+.house_card1 {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* good-hands 2 */
+
+.good_handspage1 {
+  display: flex;
+  align-items: center;
+  padding: 0 190px;
+}
+.good_hands1 {
+  margin-top: 90px;
+}
+.btnarrow {
+  width: 20px;
+  height: 10px;
+  object-fit: cover;
+  margin-left: 19px;
+}
+.learn_more1 {
+  position: relative;
+  height: 657px;
+  width: 704px;
+}
+.learn_more1 img {
+  position: absolute;
+  width: 704px;
+  height: 657px;
+  top: -140px;
+  right: -190px;
+  object-fit: cover;
+  border-radius: 57px 0 0 0;
+  box-shadow: 0px 62px 54px 0px #0000004d;
+}
+.good_hands1 h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.good_hands1 p {
+  max-width: 379px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  opacity: 60%;
+}
+.good_hands1 button {
+  margin: 0 auto;
+  padding: 25px 40px 23px 40px;
+  background-color: black;
+  color: white;
+  border-radius: 0 20px 0 0;
+  font-size: 17px;
+  font-weight: bold;
+  border:none;
+}
+/* .good_hands button img{
+  width:20px;
+  height:10px;
+  object-fit: cover;
+  margin-left:19px;
+} */
+
+/* You’re in good hands */
+
+.gradient-good-hands {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.gradient-good-hands button {
+  background-color: #ffac12;
+  border: none;
+  padding: 25px 40px 23px 40px;
+  border-radius: 0 20px 0 0;
+  margin-bottom: 150px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  border:none;
+}
+/* .gradient-good-hands button img{
+  width:20px;
+  height:10px;
+  object-fit: cover;
+  margin-left: 19px;
+} */
+
+.gradient-good-hands p {
+  max-width: 379px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.gradient-good-hands h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.gradient-good-hands {
+  padding-top: 150px;
+  margin-bottom: 17px;
+}
+
+/* Lara Madrigal */
+.lara-madrigal {
+  text-align: center;
+}
+.lara-madrigal img {
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.lara-madrigal p {
+  font-size: 24px;
+  max-width: 348px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: justify;
+}
+.lara-madrigal-profile {
+  width: 336px;
+  /* height: 141px; */
+  display: flex;
+  justify-content: space-between;
+}
+.lara-madrigal-profile p {
+  max-width: 104px;
+  color: #979797;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.client-black-profile img {
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+  margin-right: 27px;
+}
+
+.client-black-profile {
+  display: flex;
+  padding: 46px 134px 46px 40px;
+  background-color: black;
+  color: white;
+}
+.client-black-profile h5 {
+  font-size: 15px;
+}
+.client-profile {
+  display: flex;
+  padding: 46px 134px 46px 40px;
+}
+.client-profile img {
+  width: 49px;
+  height: 49px;
+  object-fit: cover;
+  margin-right: 27px;
+}
+.client-profile h5 {
+  font-size: 15px;
+}
+
+/* Make your dreams a reality */
+.make-ur-dreams {
+  background-color: black;
+  margin-top: 88px;
+}
+.dreams-reality {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 80px;
+  margin-bottom: 111px;
+  align-items: center;
+}
+.dreams-reality h1 {
+  font-size: 42px;
+  margin-bottom: 0;
+}
+.reality {
+  color: #ffac12;
+}
+.work-with-usbtn-last {
+  background-color: #ffac12;
+  border: none;
+  padding: 25px 40px 23px 40px;
+  border-radius: 0 20px 0 0;
+  font-size: 17px;
+  font-weight: bold;
+  border:none;
+}
+.work-with-usbtn-last:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+/* .work-with-usbtn-last button img{
+  width:20px;
+  height:10px;
+  object-fit: cover;
+  margin-left: 9px;
+} */
+.app-logo {
+  margin-top: 111px;
+  margin-bottom: 30px;
+}
+
+.socialmedia {
+  margin-top: 25px;
+}
+
+.twitter-design {
+  padding: 30px;
+}
+.column-heading h6 {
+  color: white;
+}
+.column-heading ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: #979797;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.column-1 {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.column-2 {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.column-3 {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.dreams-footer {
+  padding-bottom: 150px;
+}
+
+/* responsive for medium device */
+@media (max-width: 992px) {
+  .nav-content li,
+  .work-with-usbtn {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 1440px) {
+  .banner {
+    padding: 0;
+  }
+  .placetolive {
+    padding: 0;
+    padding-bottom: 222px;
+  }
+  .good_handspage1 {
+    padding: 0;
+  }
+  .learn_more img{
+    left:-65px;
+  }
+  .learn_more1 img {
+    left: 14px;
+  }
+  .app-logo{
+    margin-top: 0;
+  }
+  .dreams-footer{
+    display:flex
+  }
+}
+
+@media only screen and (min-width:769px)and (max-width: 1024px) {
+  /* .zero-bannercontent p {
+    font-size: 15px;
+    max-width: 307px;
+  } */
+  .zero-bannercontent h1 {
+    font-size: 75px;
+  }
+  .learn_more img {
+    width: 465px;
+    height: 435px;
+    top:65px;
+    left:-32px;
+  }
+  .good_hands h1 {
+    font-size: 30px;
+  }
+  .good_hands p {
+    font-size: 12px;
+  }
+  .good_hands button {
+    padding: 10px;
+    border-radius: 0 20px 0 0;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .good_hands {
+    margin-bottom: 104px;
+    margin-top: 125px;
+  }
+  .place img {
+    margin-top: 150px;
+  }
+  .drop_down {
+    border-radius: 15px;
+  }
+  .looking  {
+    padding: 35px;
+  }
+  .location  {
+    padding: 35px;
+  }
+  .property  {
+    padding: 35px;
+  }
+  .price  {
+    padding: 35px;
+  }
+  .drop_down img {
+    padding: 9px 2px;
+  }
+  .card-logo li {
+    padding: 20px 34px;
+  }
+  .learn_more1 img {
+    width: 370px;
+    height: 423px;
+    left:140px
+  }
+  .good_hands1 {
+    margin-top: 50px;
+}
+  .good_hands1 h1 {
+    font-size: 30px;
+  }
+  .good_hands1 p {
+    font-size: 12px;
+  }
+  .good_hands1 button {
+    padding: 10px;
+    border-radius: 0 15px 0 0;
+    font-size: 12px;
+  }
+  .gradient-good-hands {
+    padding-top: 110px;
+  }
+  .good_handspage1 {
+    margin-bottom: -250px;
+  }
+  .gradient-good-hands h1 {
+    font-size: 30px;
+  }
+  .gradient-good-hands p {
+    font-size: 13px;
+  }
+  .gradient-good-hands button {
+    padding: 13px 14px 13px 10px;
+    border-radius: 0 15px 0 0;
+    font-size: 12px;
+    margin-bottom: 110px;
+  }
+  .lara-madrigal p {
+    font-size: 18px;
+  }
+  .lara-madrigal img {
+    margin-top: 110px;
+  }
+  .client-black-profile {
+    padding: 40px 85px 40px 34px;
+  }
+  .client-profile {
+    padding: 40px 73px 40px 34px;
+  }
+  .dreams-reality h1 {
+    font-size: 30px;
+  }
+  .work-with-usbtn-last {
+    padding: 10px 10px 10px 15px;
+    font-size: 15px;
+  }
+  .make-ur-dreams {
+    padding: 0;
+  }
+  .app-logo{
+    margin-top: 0;
+  }
+  .dreams-footer{
+    display:flex
+  }
+  .footer-content{
+    font-size: 12px;
+  }
+  .footer-content h6{
+    font-size: 12px;
+  }
+  .twitter-design {
+    padding: 20px;
+}
+}
+
+@media(max-width: 768px) {
+
+  .side-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .side-bar li a{
+    display: block;
+    color:#ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding:20px;
+  }
+  .zero-bannercontent h1 {
+    font-size: 50px;
+    max-width: 364px;
+    margin-top: 118px;
+  }
+  .learn_more img {
+    width: 375px;
+    height: 375px;
+    top: 40px;
+    left:-24px;
+    border-radius: 0 45px 0 0;
+  }
+  .zero-bannercontent p {
+    font-size: 17px;
+  }
+  .good_hands button {
+    padding: 4px 10px 4px 10px;
+    border-radius: 0 15px 0 0;
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    border:none;
+  }
+  .good_hands button img {
+    margin-left: 9px;
+  }
+  .good_hands {
+    margin-bottom: 4px;
+    margin-top: 95px;
+  }
+  .place img {
+    margin-top: 110px;
+  }
+  .good_hands h1 {
+    font-size: 30px;
+  }
+  .good_hands p {
+    font-size: 13px;
+  }
+  .all_listings img {
+    margin-left: 5px;
+  }
+  .drop_down {
+    border-radius: 6px;
+  }
+  .drop_down img {
+    padding: 12px 17px;
+  }
+  .looking {
+    padding: 12px;
+  }
+  .looking p {
+    font-size: 13px;
+  }
+  .location {
+    padding: 12px;
+  }
+  .location p {
+    font-size: 13px;
+  }
+  .property {
+    padding: 12px;
+  }
+  .property p{
+    font-size: 13px;
+  }
+  .price {
+    padding: 12px;
+  }
+  .price p{
+    font-size: 13px;
+  }
+  .good_hands1 h1 {
+    font-size: 30px;
+  }
+  .good_hands1 p {
+    font-size: 13px;
+  }
+  .btnarrow {
+    margin-left: 9px;
+  }
+  .good_hands1 button {
+    padding: 4px 10px;
+    border-radius: 0 15px 0 0;
+    font-size: 13px;
+    border:none;
+  }
+  .learn_more1 img {
+    width: 388px;
+    height: 416px;
+    left: -7px;
+  }
+  .gradient-good-hands{
+    padding-top: 80px;
+    margin-bottom: 0;
+  }
+  .gradient-good-hands h1 {
+    font-size: 30px;
+  }
+  .gradient-good-hands p {
+    font-size: 13px;
+  }
+  .gradient-good-hands button {
+    padding: 4px 10px;
+    border-radius: 0 15px 0 0;
+    font-size: 13px;
+    border:none;
+    margin-bottom: 75px;
+  }
+  .client-black-profile {
+    padding: 12px 31px 12px 20px;
+  }
+  .client-profile {
+    padding: 12px 31px 12px 20px;
+  }
+  .dreams-reality h1 {
+    font-size: 25px;
+  }
+  .work-with-usbtn-last {
+    padding: 6px;
+    border-radius: 0 12px 0 0;
+    font-size: 13px;
+    border:none;
+  }
+  .good_hands1 {
+    margin-top: 26px;
+  }
+  .good_handspage1 {
+    margin-bottom: -277px;
+  }
+  .footer-content h6 {
+    font-size: 12px;
+  }
+  .footer-content {
+    font-size: 12px;
+  }
+  .socialmedia {
+    margin-top: 15px;
+  }
+  .twitter-design {
+    padding: 20px;
+  }
+  .lara-madrigal img {
+    margin-top: 80px;
+}
+.make-ur-dreams{
+  padding: 0;
+}
+.lara-madrigal p  {
+  font-size: 18px;
+}
+}
+
+@media (max-width: 600px) {
+  .zero-bannercontent h1 {
+    font-size: 35px;
+    max-width: 241px;
+  }
+  .zero-bannercontent p {
+    font-size: 10px;
+    max-width:208px;
+  }
+  .all_listings {
+    padding: 12px 0px 12px 12px;
+    font-size: 12px;
+  }
+  .good_hands {
+    margin-top: 330px;
+  }
+  .good_hands h1 {
+    font-size: 25px;
+  }
+  .good_hands p {
+    font-size: 10px;
+  }
+  .good_hands button {
+    padding: 4px 6px 4px 6px;
+    border-radius: 0 12px 0 0;
+    font-size: 12px;
+    border:none;
+  }
+  .learn_more img {
+    width: 300px;
+    height: 235px;
+    left:0px;
+    border-radius: 0 35px 0 0;
+    right:0;
+    margin:0 auto;
+  }
+  .place img {
+    margin-top: 95px;
+  }
+  .placetolive {
+    padding-bottom: 60px;
+  }
+  .learn_more1 img {
+    width: 300px;
+    height: 235px;
+    left: 0;
+    right:0;
+    margin:0 auto;
+    top: 42px;
+    border-radius: 35px 0 0 0;
+  }
+  .lara-madrigal p {
+    font-size: 15px;
+    max-width: 283px;
+    text-align: center;
+  }
+  .lara-madrigal-profile {
+    display: block;
+  }
+  .client-black-profile {
+    padding: 10px 0 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .client-profile {
+    padding: 10px 0 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .place img {
+    margin-top: 45px;
+}
+  .looking {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0;
+  }
+  .looking p {
+    padding: 12px;
+  }
+  .drop_down img {
+    padding: 30px 10px;
+  }
+  .location {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0;
+  }
+  .location p {
+    padding: 12px;
+  }
+  .property {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0;
+  }
+  .property p {
+    padding: 12px;
+  }
+  .price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 0;
+  }
+  .price p {
+    padding: 12px;
+  }
+  .lara-madrigal img {
+    margin-top: 59px;
+    width: 80%;
+  }
+  .place h1 {
+    font-size: 24px;
+  }
+  .good_hands1 h1 {
+    font-size: 25px;
+  }
+  .good_hands1 p {
+    font-size: 10px;
+  }
+  .good_hands1 button {
+    padding: 4px 6px 4px 6px;
+    border-radius: 0 12px 0 0;
+    font-size: 12px;
+    border: none;
+  }
+  .gradient-good-hands {
+    padding-top: 45px;
+  }
+  .gradient-good-hands p {
+    font-size: 10px;
+    max-width: 170px;
+  }
+  .gradient-good-hands button {
+    padding: 4px 6px 4px 6px;
+    border-radius: 0 12px 0 0;
+    font-size: 12px;
+    margin-bottom: 50px;
+    border:none;
+  }
+  .card-logo li {
+    padding: 12px 30px;
+  }
+  .card-content {
+    padding: 15px;
+  }
+  .card-img-top {
+    height: 235px;
+  }
+  .client-profile img {
+    width: 40px;
+    height: 39px;
+  }
+  .lara-madrigal-profile p {
+    font-size: 10px;
+  }
+  .client-profile h5 {
+    font-size: 13px;
+  }
+  .client-black-profile h5 {
+    font-size: 13px;
+  }
+  .client-black-profile img {
+    width: 40px;
+    height: 39px;
+  }
+  .footer-content {
+    display: block;
+    font-size: 13px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .socialmedia {
+    margin-top: 10px;
+    display: flex;
+  }
+  .dreams-reality h1 {
+    font-size: 30px;
+  }
+  .dreams-reality h1 {
+    font-size: 20px;
+  }
+  .twitter-design {
+    padding: 15px;
+  }
+
+  .dreams-reality {
+    margin-bottom: 60px;
+    display: block;
+  }
+
+  .media {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-ipsum {
+    object-fit: none;
+  }
+  .app-logo
+  {margin-top:0;
+}
+.column-heading{
+  margin: 0 auto;
+}
+.column-heading ul{
+  margin-bottom: 14px;
+}
+.dreams-footer{
+  display: block;
+}
+.work-with-usbtn-last {
+  margin-top: 20px;
+  border:none;
+}
+.make-ur-dreams {
+  margin-top: 40px;
+}
+}
